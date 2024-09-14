@@ -4,9 +4,9 @@ using BepInEx;
 using LethalLib.Modules;
 using BepInEx.Logging;
 using System.IO;
-using ExampleEnemy.Configuration;
+using AntoineDamiel.Configuration;
 
-namespace ExampleEnemy {
+namespace AntoineDamiel {
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     [BepInDependency(LethalLib.Plugin.ModGUID)] 
     public class Plugin : BaseUnityPlugin {
@@ -35,7 +35,7 @@ namespace ExampleEnemy {
             }
 
             // We load our assets from our asset bundle. Remember to rename them both here and in our Unity project.
-            var ExampleEnemy = ModAssets.LoadAsset<EnemyType>("ExampleEnemy");
+            var ExampleEnemy = ModAssets.LoadAsset<EnemyType>("AntoineDamiel");
             var ExampleEnemyTN = ModAssets.LoadAsset<TerminalNode>("ExampleEnemyTN");
             var ExampleEnemyTK = ModAssets.LoadAsset<TerminalKeyword>("ExampleEnemyTK");
 
@@ -67,7 +67,7 @@ namespace ExampleEnemy {
             // For different ways of registering your enemy, see https://github.com/EvaisaDev/LethalLib/blob/main/LethalLib/Modules/Enemies.cs
             Enemies.RegisterEnemy(ExampleEnemy, BoundConfig.SpawnWeight.Value, Levels.LevelTypes.All, ExampleEnemyTN, ExampleEnemyTK);
             // For using our rarity tables, we can use the following:
-            // Enemies.RegisterEnemy(ExampleEnemy, ExampleEnemyLevelRarities, ExampleEnemyCustomLevelRarities, ExampleEnemyTN, ExampleEnemyTK);
+            // Enemies.RegisterEnemy(AntoineDamiel, ExampleEnemyLevelRarities, ExampleEnemyCustomLevelRarities, ExampleEnemyTN, ExampleEnemyTK);
             
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
         }
