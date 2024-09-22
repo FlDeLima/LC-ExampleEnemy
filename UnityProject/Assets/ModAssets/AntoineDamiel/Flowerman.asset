@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 65d3fcb39dd67306e9bb17a603308070, type: 3}
-  m_Name: AntoineDamiel
-  m_EditorClassIdentifier: 
-  enemyName: AntoineDamiel
+  m_Name: Flowerman
+  m_EditorClassIdentifier:
+  enemyName: Flowerman
   probabilityCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
       time: 0
       value: 0.46494877
-      inSlope: -0.000022292137
-      outSlope: -0.000022292137
+      inSlope: -2.2292137E-05
+      outSlope: -2.2292137E-05
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
@@ -75,8 +75,7 @@ MonoBehaviour:
   useNumberSpawnedFalloff: 0
   spawnInGroupsOf: 0
   requireNestObjectsToSpawn: 0
-  enemyPrefab: {fileID: 7115615282760060981, guid: 430301093e35a0241bc26001e3040225,
-    type: 3}
+  enemyPrefab: {fileID: 1897858008635864, guid: 2f91e1cc0fa70c94080d7e3e16b610b1, type: 2}
   PowerLevel: 3
   MaxCount: 1
   numberSpawned: 1
@@ -98,14 +97,14 @@ MonoBehaviour:
   SizeLimit: 0
   timeToPlayAudio: 15
   loudnessMultiplier: 1
-  overrideVentSFX: {fileID: 8300000, guid: b3f0b9e4f22338945b39ca27477ccf5b, type: 3}
+  overrideVentSFX: {fileID: 0}
   nestSpawnPrefab: {fileID: 0}
   nestSpawnPrefabWidth: 2
   useMinEnemyThresholdForNest: 0
   minEnemiesToSpawnNest: 0
-  hitBodySFX: {fileID: 0}
-  hitEnemyVoiceSFX: {fileID: 8300000, guid: 2bc477cc9a8b1424f878ad86425e03bc, type: 3}
-  deathSFX: {fileID: 8300000, guid: c0ec35fe7f46b6a47b9e8aab096d1318, type: 3}
-  stunSFX: {fileID: 8300000, guid: 8e8f6f2b9afee1d4b967dd07af6233c3, type: 3}
+  hitBodySFX: {fileID: 8300000, guid: 3e6b7814df8102f4c83708e7e81e0c93, type: 3}
+  hitEnemyVoiceSFX: {fileID: 0}
+  deathSFX: {fileID: 0}
+  stunSFX: {fileID: 8300000, guid: cf92153d846bcbf4e8c3717c3eabe478, type: 3}
   miscAnimations: []
   audioClips: []
