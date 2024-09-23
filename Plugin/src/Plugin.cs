@@ -28,7 +28,7 @@ namespace ExampleEnemy {
             // You may want to rename your asset bundle from the AssetBundle Browser in order to avoid an issue with
             // asset bundle identifiers being the same between multiple bundles, allowing the loading of only one bundle from one mod.
             // In that case also remember to change the asset bundle copying code in the csproj.user file.
-            var bundleName = "antoinedamiel";
+            var bundleName = "antoine03";
             ModAssets = AssetBundle.LoadFromFile(Path.Combine(Path.GetDirectoryName(Info.Location), bundleName));
             if (ModAssets == null) {
                 Logger.LogError($"Failed to load custom assets.");
@@ -36,7 +36,8 @@ namespace ExampleEnemy {
             }
 
             // We load our assets from our asset bundle. Remember to rename them both here and in our Unity project.
-            var ExampleEnemy = ModAssets.LoadAsset<EnemyType>("AntoineDamiel");
+            var ExampleEnemy = ModAssets.LoadAsset<EnemyType>("antoine03");
+            //var ExampleEnemy2 = ModAssets.LoadAsset<EnemyType>("flowermantest");
             var ExampleEnemyTN = ModAssets.LoadAsset<TerminalNode>("ExampleEnemyTN");
             var ExampleEnemyTK = ModAssets.LoadAsset<TerminalKeyword>("ExampleEnemyTK");
 
@@ -63,12 +64,14 @@ namespace ExampleEnemy {
             // Network Prefabs need to be registered. See https://docs-multiplayer.unity3d.com/netcode/current/basics/object-spawning/
             // LethalLib registers prefabs on GameNetworkManager.Start.
             NetworkPrefabs.RegisterNetworkPrefab(ExampleEnemy.enemyPrefab);
+            //NetworkPrefabs.RegisterNetworkPrefab(ExampleEnemy2.enemyPrefab);
 
             // For different ways of registering your enemy, see https://github.com/EvaisaDev/LethalLib/blob/main/LethalLib/Modules/Enemies.cs
             //Enemies.RegisterEnemy(ExampleEnemy, BoundConfig.SpawnWeight.Value, Levels.LevelTypes.All, ExampleEnemyTN, ExampleEnemyTK);
             // For using our rarity tables, we can use the following:
             Enemies.RegisterEnemy(ExampleEnemy, ExampleEnemyLevelRarities, ExampleEnemyCustomLevelRarities, ExampleEnemyTN, ExampleEnemyTK);
-            
+            //Enemies.RegisterEnemy(ExampleEnemy2, ExampleEnemyLevelRarities, ExampleEnemyCustomLevelRarities, ExampleEnemyTN, ExampleEnemyTK);
+
             Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
         }
 
