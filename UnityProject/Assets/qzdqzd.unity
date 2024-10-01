@@ -426,8 +426,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 456934073}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.0036089893, y: 0.9819535, z: -0.18814565, w: -0.01885606}
+  m_LocalPosition: {x: -11.519335, y: 4.6984644, z: 8.635153}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -645,11 +645,73 @@ PrefabInstance:
       propertyPath: m_Name
       value: AntoineDamielmodel
       objectReference: {fileID: 0}
+    - target: {fileID: 8000896813018827551, guid: 84f7753ff917377458e2ad3655312794,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84f7753ff917377458e2ad3655312794, type: 3}
+--- !u!1001 &779203745
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1388216014974463, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_Name
+      value: ClaySurgeontestanim
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4162374445421072, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 5432922043f0f914481fa1e91b893fe5, type: 3}
 --- !u!1001 &1226863338
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -661,6 +723,10 @@ PrefabInstance:
     - target: {fileID: 1897858008635864, guid: 12f016c4a40cae442ad3f070421a50ee, type: 3}
       propertyPath: m_Name
       value: Flowermantestanim
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897858008635864, guid: 12f016c4a40cae442ad3f070421a50ee, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4986534980094136, guid: 12f016c4a40cae442ad3f070421a50ee, type: 3}
       propertyPath: m_LocalPosition.x
@@ -987,6 +1053,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8759331606891035517, guid: c86b5fafbe9d22c40bb6925747b19093,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0d1aea6f5de8a8a498ff23b8681a32ea, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1002,3 +1073,4 @@ SceneRoots:
   - {fileID: 7188886130665211215}
   - {fileID: 213294584}
   - {fileID: 1226863338}
+  - {fileID: 779203745}

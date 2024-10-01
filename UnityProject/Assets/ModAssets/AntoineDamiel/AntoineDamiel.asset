@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d3fcb39dd67306e9bb17a603308070, type: 3}
   m_Name: AntoineDamiel
   m_EditorClassIdentifier: 
-  enemyName: AntoineDamiel
+  enemyName: Antoine Damiel
   probabilityCurve:
     serializedVersion: 2
     m_Curve:
@@ -75,10 +75,10 @@ MonoBehaviour:
   useNumberSpawnedFalloff: 0
   spawnInGroupsOf: 0
   requireNestObjectsToSpawn: 0
-  enemyPrefab: {fileID: 7115615282760060981, guid: 430301093e35a0241bc26001e3040225,
+  enemyPrefab: {fileID: 7115615282760060981, guid: d248ca0a6fe72c440ae28a7f20aefc87,
     type: 3}
   PowerLevel: 3
-  MaxCount: 1
+  MaxCount: 2
   numberSpawned: 1
   nestsSpawned: 0
   isOutsideEnemy: 0
@@ -98,14 +98,14 @@ MonoBehaviour:
   SizeLimit: 0
   timeToPlayAudio: 15
   loudnessMultiplier: 1
-  overrideVentSFX: {fileID: 8300000, guid: b3f0b9e4f22338945b39ca27477ccf5b, type: 3}
+  overrideVentSFX: {fileID: 8300000, guid: 0b43d007934a6c14eaea7e0a440c01a7, type: 3}
   nestSpawnPrefab: {fileID: 0}
-  nestSpawnPrefabWidth: 2
+  nestSpawnPrefabWidth: 0
   useMinEnemyThresholdForNest: 0
   minEnemiesToSpawnNest: 0
   hitBodySFX: {fileID: 0}
-  hitEnemyVoiceSFX: {fileID: 8300000, guid: 2bc477cc9a8b1424f878ad86425e03bc, type: 3}
-  deathSFX: {fileID: 8300000, guid: c0ec35fe7f46b6a47b9e8aab096d1318, type: 3}
-  stunSFX: {fileID: 8300000, guid: 8e8f6f2b9afee1d4b967dd07af6233c3, type: 3}
+  hitEnemyVoiceSFX: {fileID: 8300000, guid: 0b43d007934a6c14eaea7e0a440c01a7, type: 3}
+  deathSFX: {fileID: 0}
+  stunSFX: {fileID: 0}
   miscAnimations: []
   audioClips: []

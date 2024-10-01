@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 533074347
+CRC: 2680594735
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6f51c036074ff96a71ae6479f8d7e3e4
+    Hash: 5d16dced53c468b040058b054bc28dc6
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 8cba90970d84a9f50ae1547518dadb56
+    Hash: 3825aa3e90d4372726a5e1c04011cc1e
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6f51c036074ff96a71ae6479f8d7e3e4
+    Hash: 5d16dced53c468b040058b054bc28dc6
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -37,8 +37,6 @@ ClassTypes:
 - Class: 74
   Script: {instanceID: 0}
 - Class: 82
-  Script: {instanceID: 0}
-- Class: 83
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
@@ -78,6 +76,12 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 199
   Script: {instanceID: 0}
+- Class: 241
+  Script: {instanceID: 0}
+- Class: 243
+  Script: {instanceID: 0}
+- Class: 245
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
   ClassName: AISearchRoutine
@@ -99,5 +103,4 @@ SerializeReferenceClassIdentifiers:
   ClassName: UnityEngine.Events.UnityEvent
 Assets:
 - Assets/ModAssets/bracken/Flowermantest.asset
-- Assets/ModAssets/antoine03/Antoine03.asset
 Dependencies: []

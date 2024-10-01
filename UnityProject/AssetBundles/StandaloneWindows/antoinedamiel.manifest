@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2802752037
+CRC: 3827821924
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7db75b6e46e96cf7f6b099a5dc8f36c6
+    Hash: d1eb7b3b9182902b10957fd2ff675f4a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: bcba83f92614d1c75cb61015e6279d44
+    Hash: 0b1792c9a9353cc624bc5e262c5b0501
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 7db75b6e46e96cf7f6b099a5dc8f36c6
+    Hash: d1eb7b3b9182902b10957fd2ff675f4a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -47,7 +47,7 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 04f75356a7e9c978bddc7d568e58a50b, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: e96cb6065543e43c4a752faaa1468eb1, type: 3}
+  Script: {fileID: 11500000, guid: c5a15fd86cfe211173eb68d9b08fcff2, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0ff02921be40daf28b21895907c199cb, type: 3}
 - Class: 114
@@ -62,11 +62,13 @@ ClassTypes:
   Script: {fileID: 11500000, guid: d3cecf05b78b173605122a700874719c, type: 3}
 - Class: 115
   Script: {instanceID: 0}
-- Class: 136
-  Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
 - Class: 195
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
   Script: {instanceID: 0}
 - Class: 241
   Script: {instanceID: 0}
@@ -80,11 +82,19 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: Assembly-CSharp
   ClassName: AISearchRoutine
 - AssemblyName: Assembly-CSharp
+  ClassName: CompatibleNoun
+- AssemblyName: Assembly-CSharp
   ClassName: EnemyBehaviourState
 - AssemblyName: Assembly-CSharp
   ClassName: NavSizeLimit
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.UnityEvent
 Assets:
-- Assets/ModAssets/AntoineDamiel/Bestiary/ExampleEnemyTK.asset
+- Assets/ModAssets/AntoineDamielold/Bestiary/ExampleEnemyTK.asset
+- Assets/ModAssets/AntoineDamiel/Bestiary/AntoineDamielTN.asset
+- Assets/ModAssets/AntoineDamiel/Bestiary/AntoineDamielTK.asset
 - Assets/ModAssets/AntoineDamiel/AntoineDamiel.asset
-- Assets/ModAssets/AntoineDamiel/Bestiary/ExampleEnemyTN.asset
+- Assets/ModAssets/AntoineDamielold/Bestiary/ExampleEnemyTN.asset
 Dependencies: []
