@@ -3,7 +3,12 @@ guid: 2a6c94fd59ecafc4a9a020ac9afbb49f
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Jaune Brice
+    second: {fileID: 2100000, guid: 9f921d0402fd98e449c3dc28d009ce6a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

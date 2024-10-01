@@ -451,21 +451,21 @@ MonoBehaviour:
     onlySearchNodesInLOS: 0
   musicAudio: {fileID: 82071629962554031}
   musicAudio2: {fileID: 82480417309893948}
-  snareDrum: {fileID: 8300000, guid: 5d7ba56ed7af5954e89802bab4c83b28, type: 3}
+  snareDrum: {fileID: 8300000, guid: 3946151003a8b394c84afbda524e3341, type: 3}
   paradeClips:
-  - {fileID: 8300000, guid: 3bffea49626dc61429bf90d1f548d21a, type: 3}
-  - {fileID: 8300000, guid: 3a4ddbafa434c6649add4e3e9dc79cc0, type: 3}
-  - {fileID: 8300000, guid: c0cfcc892f96d4845999812d3d591b77, type: 3}
-  - {fileID: 8300000, guid: 3e74cfc24c9b3de4ab8c0f9ac6897cf9, type: 3}
-  - {fileID: 8300000, guid: 803dc7e26f3e432458fe665fe64ed95f, type: 3}
-  snipScissors: {fileID: 8300000, guid: cc3ca4c4f77db0a4c9bb16131e9fff86, type: 3}
+  - {fileID: 8300000, guid: 497b0114fde61ec45884c5c2dd45c18b, type: 3}
+  - {fileID: 8300000, guid: 497b0114fde61ec45884c5c2dd45c18b, type: 3}
+  - {fileID: 8300000, guid: 497b0114fde61ec45884c5c2dd45c18b, type: 3}
+  - {fileID: 8300000, guid: 497b0114fde61ec45884c5c2dd45c18b, type: 3}
+  - {fileID: 8300000, guid: 497b0114fde61ec45884c5c2dd45c18b, type: 3}
+  snipScissors: {fileID: 8300000, guid: 64cc026b20887234a97afa8760603a10, type: 3}
   allClaySurgeons: []
   snareOffset: 1.1
   scissorBlades:
-  - {fileID: 4550713702754920513}
-  - {fileID: 4550713702754920513}
-  skin: {fileID: 4856269972185415642}
-  scissorGuyMat: {fileID: 2100000, guid: 68e94f5bf08110f49a919c625c63a3a1, type: 2}
+  - {fileID: 8543210859685607316}
+  - {fileID: 8543210859685607316}
+  skin: {fileID: 3143668191271154606}
+  scissorGuyMat: {fileID: 2100000, guid: 9f921d0402fd98e449c3dc28d009ce6a, type: 2}
 --- !u!114 &114293131554732970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1015,7 +1015,7 @@ Transform:
   m_GameObject: {fileID: 1964388923852131}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7630149, z: -0, w: 0.64638096}
-  m_LocalPosition: {x: 0, y: 1.85, z: 0}
+  m_LocalPosition: {x: 0, y: 1.215, z: 0}
   m_LocalScale: {x: 1.1948444, y: 1.1948447, z: 1.1948444}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1166,6 +1166,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 7269642753642327252}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2a6c94fd59ecafc4a9a020ac9afbb49f,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8543210859685607316}
   m_SourcePrefab: {fileID: 100100000, guid: 2a6c94fd59ecafc4a9a020ac9afbb49f, type: 3}
 --- !u!4 &192930364016613291 stripped
 Transform:
@@ -1219,15 +1223,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainScript: {fileID: 114075686539836471}
---- !u!23 &4550713702754920513 stripped
+--- !u!23 &8543210859685607316
 MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: 4179540951125989377, guid: 2a6c94fd59ecafc4a9a020ac9afbb49f,
-    type: 3}
-  m_PrefabInstance: {fileID: 371498975869907008}
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
---- !u!137 &4856269972185415642 stripped
+  m_GameObject: {fileID: 713465984126061841}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 257
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9f921d0402fd98e449c3dc28d009ce6a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!137 &3143668191271154606 stripped
 SkinnedMeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -4160416111929307238, guid: 2a6c94fd59ecafc4a9a020ac9afbb49f,
+  m_CorrespondingSourceObject: {fileID: -5870624866154265618, guid: 2a6c94fd59ecafc4a9a020ac9afbb49f,
     type: 3}
   m_PrefabInstance: {fileID: 371498975869907008}
   m_PrefabAsset: {fileID: 0}
